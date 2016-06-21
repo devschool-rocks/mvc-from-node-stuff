@@ -1,4 +1,5 @@
-module.exports = {
+require('dotenv').config();
+var config = {
 
   development: {
     client: 'postgresql',
@@ -22,3 +23,4 @@ module.exports = {
 
 };
 
+module.exports = config;
